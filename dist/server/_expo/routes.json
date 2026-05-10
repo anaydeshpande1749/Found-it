@@ -1,0 +1,79 @@
+{
+  "apiRoutes": [],
+  "htmlRoutes": [
+    {
+      "file": "./(tabs)/index.tsx",
+      "page": "/(tabs)/index",
+      "namedRegex": "^(?:/\\(tabs\\))?(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./index.tsx",
+      "page": "/index",
+      "namedRegex": "^/(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/chats.tsx",
+      "page": "/(tabs)/chats",
+      "namedRegex": "^(?:/\\(tabs\\))?/chats(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./modal.tsx",
+      "page": "/modal",
+      "namedRegex": "^/modal(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/profile.tsx",
+      "page": "/(tabs)/profile",
+      "namedRegex": "^(?:/\\(tabs\\))?/profile(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "expo-router/build/views/Sitemap.js",
+      "page": "/_sitemap",
+      "namedRegex": "^/_sitemap(?:/)?$",
+      "routeKeys": {},
+      "generated": true
+    },
+    {
+      "file": "./(tabs)/reportlost.tsx",
+      "page": "/(tabs)/reportlost",
+      "namedRegex": "^(?:/\\(tabs\\))?/reportlost(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./(tabs)/reportfound.tsx",
+      "page": "/(tabs)/reportfound",
+      "namedRegex": "^(?:/\\(tabs\\))?/reportfound(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./screens/chat.tsx",
+      "page": "/screens/chat",
+      "namedRegex": "^/screens/chat(?:/)?$",
+      "routeKeys": {}
+    },
+    {
+      "file": "./screens/login.tsx",
+      "page": "/screens/login",
+      "namedRegex": "^/screens/login(?:/)?$",
+      "routeKeys": {}
+    }
+  ],
+  "notFoundRoutes": [
+    {
+      "file": "expo-router/build/views/Unmatched.js",
+      "page": "/+not-found",
+      "namedRegex": "^(?:/(?<notfound>.+?))?(?:/)?$",
+      "routeKeys": {
+        "notfound": "not-found"
+      },
+      "generated": true
+    }
+  ],
+  "redirects": [],
+  "rewrites": []
+}
