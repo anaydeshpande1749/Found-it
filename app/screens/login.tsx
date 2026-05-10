@@ -112,6 +112,8 @@ export default function LoginScreen() {
   );
 }
 
+
+
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "#EFF6FF", justifyContent: "center", padding: 20 },
   logoContainer: { alignItems: "center", marginBottom: 30 },
