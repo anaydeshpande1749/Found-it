@@ -23,7 +23,8 @@
       "package": "com.vikas123098.founditapp"
     },
     "web": {
-      "output": "server",
+      // "output": "server",
+      "output": "single",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
